@@ -28,7 +28,7 @@ urlifyChar(){
 	'?')  echo '%3F' ;;
 	'@')  echo '%40' ;;
 	'[')  echo '%5B' ;;
-	'\\') echo '%5C' ;;
+	'\')  echo '%5C' ;;
 	']')  echo '%5D' ;;
 	'^')  echo '%5E' ;;
 	'`')  echo '%60' ;;
